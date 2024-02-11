@@ -5,6 +5,38 @@
   text-align: center;
 }
 
+.App {
+  display: flex;
+}
+
+
+.puppy-list {
+  flex: 1;
+  text-align: left;
+}
+
+.puppy-info {
+  flex: 1;
+  margin-left: 20px;
+  text-align: left;
+  border-left: 1px solid #ccc; /* Add a left border */
+}
+
+.puppy-info h2 {
+  padding-left: 9px;
+}
+
+.puppy-info ul {
+  padding: 10px;
+  list-style-type: none;
+  margin: 0;
+}
+
+.puppy-info li {
+  width: 100%; /* Fill available width */
+  text-align: left; /* Align text to the left */
+}
+
 .logo {
   height: 6em;
   padding: 1.5em;
